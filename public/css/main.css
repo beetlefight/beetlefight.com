@@ -1,0 +1,113 @@
+body {
+  background-color:#f3f3f3;
+}
+
+/* ############
+  Gray top area 
+  #############
+*/
+#gray-top-area{
+  width:100%;
+  height:633px;
+  background:url(/images/outer-background.png) top left repeat-x;
+}
+#gray-top-area .main {
+  font-family:Georgia, serif;
+  font-size:30px;
+  text-align:center;
+  color:#f0f0f0;
+  position:relative;
+  top:55px;
+}
+#gray-top-area .profiles {
+  margin:0px auto;
+  width:900px;
+  clear:both;
+  padding:152px 0 0px 0;
+  height:375px;
+}
+#gray-top-area .profiles ul {
+  display:inline;
+}
+#gray-top-area .profiles ul li{
+  list-style-type:none;
+  float:left;
+}
+#gray-top-area .profiles ul li .profile {
+  width:300px;
+  text-align:center;
+}
+#gray-top-area .profiles ul li .profile img {
+  padding-bottom:12px;
+}
+#gray-top-area .profiles ul li .profile h4, 
+#gray-top-area .profiles ul li .profile h5 {
+  font-weight:bold;
+  font-family:"Myriad Pro", sans-serif;
+  color:#fff;
+  font-size:12px;
+  text-align:center;
+}
+#gray-top-area .profiles ul li .profile h5 {
+  font-size:10px;
+  font-weight:normal;
+}
+#gray-top-area .tagline {
+  background:url(/images/tagline-background.png) top left no-repeat;
+  width:266px;
+  height:71px;
+  margin:0 auto;
+  position:relative;
+  top:-1px;
+}
+#gray-top-area .tagline p {
+  color:#f0f0f0;
+  font-size:23px;
+  text-align:center;
+  font-family:Georgia, serif;
+}
+
+/* ############
+  iOS apps lower area
+  #############
+*/
+.ios-apps-list {
+  clear:both;
+  width:600px;
+  margin:0 auto;
+  text-align:center;
+  height:200px;
+  padding:30px 0 0 0;
+}
+.ios-apps-list a {
+  font-family:"Myriad Pro", sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  
+  text-decoration:none;;
+}
+.ios-apps-list a h4 {
+  color:#333333;
+  padding:5px 0;
+}
+.ios-apps-list ul li {
+  display:inline;
+  float:left;
+  list-style-type:none;
+}
+.ios-apps-list ul li .ios-app {
+  width:300px;
+}
+
+
+/* ############
+  copyright area
+  #############
+*/
+#outer .copyright-footer {
+  text-align:center;
+  font-family:"Myriad Pro", sans-serif;
+  color:#ccc;
+  font-size:12px;
+  padding:30px 0 20px 0;
+}
