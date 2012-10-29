@@ -10,6 +10,7 @@ body {
   width:100%;
   height:633px;
   background:url(/images/outer-background.png) top left repeat-x;
+  margin-top:-1px;
 }
 #gray-top-area .main {
   font-family:Georgia, serif;
